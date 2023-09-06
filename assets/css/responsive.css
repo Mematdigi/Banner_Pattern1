@@ -1,0 +1,242 @@
+
+@media(max-width: 1200px){
+    .rpak-view-list-2::after{
+        height: 474px;
+    }
+    
+}
+@media(max-width: 992px) {
+    /* Menu Only */
+    .header .container .row .col-md-12 {
+        position: inherit;
+    }
+
+    .header {
+        padding: 2px 0;
+    }
+    .header .col-md-10{
+        position: static;
+    }
+
+    .mobile-logo{
+        display: block;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .mobile-logo img{
+        height: 100px;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100vh;
+        overflow-y: auto;
+        width: 0;
+        background: #111111;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        transition: all 0.3s ease;
+    }
+
+    .menu.menu-active {
+        width: 50%;
+    }
+
+    nav ul.menu li {
+        display: inherit;
+        border-bottom: 1px solid #686868;
+    }
+
+    nav ul.menu li a {
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+    }
+
+    nav .menu .dp-menu.submenu-active {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+        display: block;
+    }
+
+    /* Mrnu Bar */
+    .menu-bar {
+        height: 2px;
+        width: 22px;
+        background: #04115d;
+        margin: 6px;
+        border-radius: 20px;
+        transition: all 0.5s ease-in;
+    }
+
+    .menu-bar:nth-child(1).crose {
+        transform: translateY(8px) rotate(45deg);
+        background: #04115d;
+    }
+
+    .menu-bar:nth-child(2).crose {
+        opacity: 0;
+    }
+
+    .menu-bar:nth-child(3).crose {
+        transform: translateY(-8px) rotate(-45deg);
+        background: #04115d;
+    }
+
+    #berger-menu {
+        cursor: pointer;
+        float: right;
+    }
+
+    nav .menu .dp-menu {
+        position: static;
+        background: #04115d;
+        width: 100%;
+        padding: 0 15px;
+        display: none;
+        box-shadow: none;
+    }
+
+    nav .menu li a:hover{
+        color: #fff;
+    }
+    .home-banner-content h1{
+        font-size: 24px;
+    }
+    .home-banner-content{
+        top: calc(50% - 80px);
+    }
+    .our-service-area {
+        background-color: transparent;
+    }
+    .row.our-service-area .col-lg-3 {
+        margin-bottom: 30px;
+        background: #002e5b;
+    }
+    .w-choose-left, .w-choose-right {
+        margin-top: 0%;
+    }
+    .single-funfact{
+        margin-bottom: 30px;
+    }
+    .key-features-box{
+        margin-bottom: 30px;
+    }
+    .rp-view-box::after{
+        display: none;
+    }
+    .rp-view-left{
+        display: block;
+        width: 100%;
+    }
+    .rp-view-box.rp-view-box-1.middle.position-relative {
+        display: block;
+        margin-bottom: 30px;
+    }
+    .rp-view-box h2{
+        padding: 30px;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+    }
+    .rpak-view-list ul li::after{
+        display: none;
+    }
+    .rpak-view-list-2::after{
+        display: none;
+    }
+    .rpak-view-list ul li::before{
+        left: 0;
+    }
+    .rpak-view-list ul li{
+        padding: 5px 10px 5px 40px;
+    }
+    .subscribe-content {
+        text-align: center;
+    }
+   
+}
+@media(max-width: 768px) {
+    .service-img{
+        height: 300px;
+    }    
+    .subscribe-form{
+        padding-left: 0;
+    }
+    .copyright-area {
+        text-align: center;
+    }
+    .copyright-area ul {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .inner-banner{
+        padding: 50px 0;
+    }
+    .banner-quiry-form{
+        margin-top: 40px;
+    }
+    .mi-content-img {
+        margin-top: 50px;
+    }
+    .ai-plans .content {
+        margin-bottom: 30px;
+    }
+    .about-rp-img {
+        margin-top: 30px;
+    }
+    .child-edu-txt{
+        margin: 30px 0 0;
+    }
+    .ed-plan{
+        display:block;
+    }
+    .ed-circle{
+        display:none;
+    }
+    
+    .parcent img {
+    position: absolute;
+    top: 83px;
+    right: 0px;
+}
+}
+@media(max-width: 576px) {
+    .top-info .top-info-text {
+        display: none;
+    }
+    .menu.menu-active {
+        width: 70%;
+    }
+    .home-banner-content h1 {
+        font-size: 16px;
+    }
+    .home-banner-content {
+        top: calc(50% - 30px);
+    }
+    .home-banner-content h3{
+        margin-bottom: 10px;
+    }
+    .section-title h2, .achievements-content .title h2{
+        font-size: 20px;
+    }
+    .section-title p{
+        font-size: 14px;
+    }
+    .row.our-service-area {
+        padding: 0 15px;
+    }
+    .single-funfact p{
+        font-size: 14px;
+    }
+    .subscribe-content h2{
+        font-size: 20px;
+    }
+    .ti-plans .box{
+        margin-left: 15px;
+    }
+     
+}
